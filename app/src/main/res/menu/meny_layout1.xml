@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="Kolor tekstu - zielony" />
+    <item
+        android:id="@+id/item2"
+        android:title="Kolor tekstu - niebieski" />
+    <item
+        android:id="@+id/item3"
+        android:title="Kolor tekstu - czerwony" />
+    <item android:title="podmenu" >
+        <menu>
+            <item
+                android:id="@+id/item41"
+                android:title="Zmien kolor tła - zielony"></item>
+            <item
+                android:id="@+id/item42"
+                android:title="Zmien kolor tła - niebieski"></item>
+            <item
+                android:id="@+id/item43"
+                android:title="Zmien kolor tła - czerwony"></item>
+        </menu>
+    </item>
+
+</menu>
