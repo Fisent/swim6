@@ -7,7 +7,7 @@
         android:title="Kolor tła - zielony" />
     <item
         android:id="@+id/context_item22"
-        android:title="Kolor tła - niebieski" />
+        android:title="Kolor tła - żółty" />
     <item
         android:id="@+id/context_item23"
         android:title="Kolor tła - czerwony" />

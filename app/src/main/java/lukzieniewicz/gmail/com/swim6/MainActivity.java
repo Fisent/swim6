@@ -67,8 +67,8 @@ public class MainActivity extends AppCompatActivity {
                 tv2.setTextColor(Color.GREEN);
                 return true;
             case R.id.item2:
-                tv1.setTextColor(Color.BLUE);
-                tv2.setTextColor(Color.BLUE);
+                tv1.setTextColor(Color.YELLOW);
+                tv2.setTextColor(Color.YELLOW);
                 return true;
             case R.id.item3:
                 tv1.setTextColor(Color.RED);
@@ -79,8 +79,8 @@ public class MainActivity extends AppCompatActivity {
                 tv2.setBackgroundColor(Color.GREEN);
                 return true;
             case R.id.item42:
-                tv1.setBackgroundColor(Color.BLUE);
-                tv2.setBackgroundColor(Color.BLUE);
+                tv1.setBackgroundColor(Color.YELLOW);
+                tv2.setBackgroundColor(Color.YELLOW);
                 return true;
             case R.id.item43:
                 tv1.setBackgroundColor(Color.RED);
@@ -112,7 +112,7 @@ public class MainActivity extends AppCompatActivity {
                 tv1.setTextColor(Color.GREEN);
                 return true;
             case R.id.context_item_12:
-                tv1.setTextColor(Color.BLUE);
+                tv1.setTextColor(Color.YELLOW);
                 return true;
             case R.id.context_item_13:
                 tv1.setTextColor(Color.RED);
@@ -121,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
                 tv2.setBackgroundColor(Color.GREEN);
                 return true;
             case R.id.context_item22:
-                tv2.setBackgroundColor(Color.BLUE);
+                tv2.setBackgroundColor(Color.YELLOW);
                 return true;
             case R.id.context_item23:
                 tv2.setBackgroundColor(Color.RED);

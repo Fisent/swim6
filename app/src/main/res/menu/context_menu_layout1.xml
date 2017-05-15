@@ -7,7 +7,7 @@
         android:title="Kolor tekstu - zielony" />
     <item
         android:id="@+id/context_item_12"
-        android:title="Kolor tekstu - niebieski" />
+        android:title="Kolor tekstu - żółty" />
     <item
         android:id="@+id/context_item_13"
         android:title="Kolor tekstu - czerwony" />

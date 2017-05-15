@@ -8,6 +8,7 @@ import android.support.v7.view.ActionMode;
 import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.SubMenu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -24,10 +25,10 @@ public class SecondaryActivity extends AppCompatActivity {
         @Override
         public boolean onCreateActionMode(ActionMode mode, Menu menu)
         {
-            ids[0] = menu.add("Czerwony tekst").getItemId();
-            ids[1] = menu.add("Żółty tekst").getItemId();
-            ids[2] = menu.add("Czerwone tło").getItemId();
-            ids[3] = menu.add("Żółte tło").getItemId();
+            ids[0] = menu.add("Czerwony tekst").setIcon(android.R.drawable.ic_lock_lock).getItemId();
+            ids[1] = menu.add("Żółty tekst").setIcon(android.R.drawable.ic_delete).getItemId();
+            ids[2] = menu.add("Czerwone tło").setIcon(android.R.drawable.arrow_up_float).getItemId();
+            ids[3] = menu.add("Żółte tło").setIcon(android.R.drawable.ic_menu_help).getItemId();
             return true;
         }
 
@@ -138,10 +139,12 @@ public class SecondaryActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add("tekst 1 - żółte tło");
-        menu.add("tekst 1 - czerowne tło");
-        menu.add("tekst 2 - żółte tło");
-        menu.add("tekst 2 - czerwone tło");
+        SubMenu sb1 = menu.addSubMenu("tekst 1").setHeaderIcon(android.R.drawable.ic_menu_add);
+        SubMenu sb2 = menu.addSubMenu("tekst 2").setHeaderIcon(android.R.drawable.ic_menu_add);
+        sb1.add("tekst 1 - żółte tło").setIcon(android.R.drawable.btn_plus);
+        sb1.add("tekst 1 - czerowne tło").setIcon(android.R.drawable.ic_delete);
+        sb2.add("tekst 2 - żółte tło").setIcon(android.R.drawable.ic_lock_lock);
+        sb2.add("tekst 2 - czerwone tło").setIcon(android.R.drawable.ic_delete);
         return super.onCreateOptionsMenu(menu);
 
     }
