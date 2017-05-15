@@ -7,31 +7,14 @@
     tools:context="lukzieniewicz.gmail.com.swim6.SecondaryActivity">
 
     <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="155dp"
-        android:text="TextView" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView1"
-        android:layout_alignRight="@+id/textView1"
-        android:layout_centerVertical="true"
-        android:text="TextView" />
-
-    <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Contextual action"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp" />
+        android:layout_marginBottom="40dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
 
     <TextView
         android:id="@+id/check1"
@@ -43,7 +26,7 @@
         android:layout_marginTop="49dp"
         android:layout_toEndOf="@+id/textView3"
         android:layout_toRightOf="@+id/textView3"
-        android:text="check1" />
+        android:text="unchecked" />
 
     <TextView
         android:id="@+id/check2"
@@ -53,7 +36,7 @@
         android:layout_alignStart="@+id/check1"
         android:layout_below="@+id/check1"
         android:layout_marginTop="26dp"
-        android:text="check2" />
+        android:text="unchecked" />
 
     <TextView
         android:id="@+id/check3"
@@ -63,7 +46,7 @@
         android:layout_alignRight="@+id/check2"
         android:layout_below="@+id/check2"
         android:layout_marginTop="24dp"
-        android:text="check3" />
+        android:text="unchecked" />
 
     <TextView
         android:id="@+id/checkbox_controller"
@@ -72,5 +55,27 @@
         android:layout_above="@+id/check3"
         android:layout_toLeftOf="@+id/textView2"
         android:layout_toStartOf="@+id/textView2"
-        android:text="Checkobx controller" />
+        android:text="Checkobx controller"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignStart="@+id/textView1"
+        android:layout_marginTop="75dp"/>
 </RelativeLayout>
